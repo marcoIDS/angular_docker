@@ -1,0 +1,7 @@
+docker build --tag hello_world_python_app .
+docker images 
+docker rm image.id //eliminar imagenes
+docker run --name hello_world_python_app -p 5000:5000 hello_world_python_app
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'password'
+docker exec -it mysql-db -u root mysql -p
+docker-compose -p angular-django up
